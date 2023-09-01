@@ -1,0 +1,89 @@
+.homePageWrapper{
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  color: black;
+}
+.formWrapper{
+  background:#118a7e;
+  padding: 20px;
+  border-radius: 15px;
+  width: 400px;
+  max-width: 90%;
+}
+.inputElements{
+  display: flex;
+  flex-direction: column;
+
+}
+.mainLabel{
+  margin-bottom: 12px;
+  margin-top:0px;
+}
+.inputBox{
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 15px;
+  background: #eee;
+  font-size: 16px;
+}
+.btn{
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #37cd8f;
+}
+.createButton{
+  color: black;
+}
+.join:hover,.btn:hover{
+  background-color: #2ca97bd4;
+}
+.createButton:hover{
+  color: #1e1875;
+}
+.mainWrap{
+  display:grid;
+  grid-template-columns: 250px 1fr;
+}
+.sideWrap{
+    background: #1c1e29;
+    padding: 16px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh-20px;
+}
+
+.sideInner{
+  flex: 1;
+}
+.clientList{
+  display:flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.client{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+  
+}
+.userName{
+  color: #eee;
+}
+.hc{
+  color: #dfd5d5;
+  margin-top: 0px;
+}
+.copybtn{
+  margin-bottom: 5px;
+}
+.CodeMirror{
+  min-height: 100vh;
+  font-size: 20px;
+}
